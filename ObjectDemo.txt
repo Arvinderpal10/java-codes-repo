@@ -1,0 +1,31 @@
+# ObjectDemo.java
+
+
+class calc
+{
+   int num1;
+   int num2;
+   int result;		     //object knows something 
+
+ public void perform()
+{                            // object does something 
+   resulr=num1 +num2;
+   
+}
+    
+
+}
+
+public class ObjectDemo
+{
+public static void main(String args[])
+{
+     
+   calc obj;
+   obj= new calc(); 
+   obj.num1=5;
+   obj.num2=10;
+   obj.perform();
+   System.out.println(obj.result);
+}
+}
